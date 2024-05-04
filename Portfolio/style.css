@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.4s ease;
+    align-content: space-between;
+    background: #4070f4;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav .nav-content{
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav .logo a{
+    font-weight: 500;
+    font-size: 35px;
+    color: #ffffff;
+  }
+  nav.sticky .logo a{
+    color: #fff;
+  }
+  .nav-content .nav-links{
+    display: flex;
+  }
+  .nav-content .nav-links li{
+    list-style: none;
+    margin: 0 8px;
+  }
+   .nav-links li a{
+    text-decoration: none;
+    color: #0E2431;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 14px;
+    transition: all 0.3s ease;
+    font-size: 25px;
+  }
+   .nav-links li a:hover{
+     color: white;
+    filter: drop-shadow(2px 2px 5px white);
+   }
+   nav.sticky .nav-links li a{
+     color: #fff;
+     transition: all 0.4s ease;
+  }
+  
+
+.btn {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 20px 40px;
+    display: flexbox;
+    margin-right:30px ;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out;
+    background-size: 152% 100%;
+    background: #47aefd;
+    border: 2px solid #47aefd;
+}
+.btn:hover {
+    background: transparent;
+    border-color: #47aefd;
+    color: #47aefd;
+}
+.content {
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+.content h1 {
+    color: #1f1f25;
+    font-size: 90px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 100%;
+}
+.content h1 span {
+    color: #009ff4;
+}
+.content p {
+    width: 55%;
+    color: #202020;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+#about
+{
+    position: absolute;
+    color: black;
+}
+h2
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 98px;
+}
